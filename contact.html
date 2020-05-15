@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G-Media Entertainment</title>
+     <!-- Web Icon-->
+     <link rel="icon" href="gmedia_6Ym_icon.ico">
+
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+  </head>
+  
+  <body class="size-1140">
+  	
+    <!-- HEADER -->
+    <header role="banner" class="position-absolute">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-transparent-hightlight full-width sticky">
+        <div class="s-12 l-2">
+          <a href="index.html" class="logo">
+            <!-- Logo White Version -->
+            <img class="logo-white" src="img/logo.png" alt="">
+            <!-- Logo Dark Version -->
+            <img class="logo-dark" src="img/logo-dark.png" alt="">
+          </a>
+        </div>
+        <div class="top-nav s-12 l-10">
+          <p class="nav-text"></p>
+         <ul class="right chevron">
+            <li><a class ="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+            <li><a class ="nav-link js-scroll-trigger" href ="index.html" >Services</a></li>
+            <li><a class ="nav-link js-scroll-trigger" href="index.html">About</a></li>
+            <li><a class ="nav-link js-scroll-trigger" href="index.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main">
+      <!-- Content -->
+      <article>
+        <header class="section background-dark">
+          <div class="line">        
+            <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">Contact Us</h1>
+            <p class="margin-bottom-0 text-size-16">Come to our location , call us ,or send a message but whatever you do make sure you contact us.</p>
+          </div>  
+        </header>
+        <div class="section background-white"> 
+          <div class="line margin-bottom-60">
+            <div class="margin">
+              <div class="s-12 m-12 l-4 margin-m-bottom">
+                <div class="padding-2x block-bordered border-radius">
+                  <div class="float-left hide-s">
+                    <i class="icon-sli-location-pin icon3x text-primary"></i>
+                  </div>
+                <div class="margin-left-70 margin-s-left-0 margin-bottom">
+                  <h3 class="margin-bottom-0">Company Address</h3>
+                  <p>10 Olifantrivier Street<br>
+                    Vanderbijlpark<br> S.E 4 ,1911
+                 </p>                           
+                </div>
+                </div>
+              </div>
+              <div class="s-12 m-12 l-4 margin-m-bottom">
+                <div class="padding-2x block-bordered border-radius">
+                  <div class="float-left hide-s">
+                    <i class="icon-sli-envelope icon3x text-primary"></i>
+                  </div>
+                  <div class="margin-left-70 margin-s-left-0 margin-bottom">
+                    <h3 class="margin-bottom-0">E-mail</h3>
+                    <p><br>
+                      
+                    </p>              
+                  </div>
+                </div>
+              </div>
+              <div class="s-12 m-12 l-4 margin-m-bottom">
+                <div class="padding-2x block-bordered border-radius">
+                  <div class="float-left hide-s">
+                    <i class="icon-sli-phone icon3x text-primary"></i>
+                  </div>
+                  <div class="margin-left-70 margin-s-left-0">
+                    <h3 class="margin-bottom-0">Phone Numbers</h3>
+                    <p><span class="text-primary"></span><br>
+                       <br>
+                      
+                    </p>             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="margin">
+              <!-- Contact Form -->
+              <div class="s-12 m-12 l-6">
+                <h2 class="margin-bottom-10">Leave Message</h2>
+                <form id="contactForm" name ="sentMessage" class="customform" method="post">
+                  <div class="line">
+                    <div class="margin">
+                      <div class="s-12 m-12 l-6">
+                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                      <div class="s-12 m-12 l-6">
+                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="s-12"> 
+                    <input class="form-control" id="subject" type="text" placeholder="Your Subject *" required="required" data-validation-required-message="Please enter your subject.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="s-12">
+                    <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
+                    <p class="message-error form-error">Please enter your message.</p>
+                  </div>
+                  <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Send Message</button></div>
+                </div> 
+              
+                </form>
+              </div>
+            </div>    
+          </div>  
+        </div> 
+      </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+      <!-- Contact Us -->
+      <div class="background-primary padding text-center">
+        <p class="h1"></p>                                                                        
+      </div>
+      
+      <!-- Main Footer -->
+      <section class="background-dark full-width">
+        <!-- Map -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="s-12 grayscale center">  	  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.432637930002!2d27.85804585558198!3d-26.730566685646668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e945916b1c7574f%3A0x1890590dc29368ca!2s10%20Olifantsrivier%20St%2C%20Vanderbijlpark%20S.%20E.%204%2C%20Vanderbijlpark%2C%201911!5e0!3m2!1sen!2sza!4v1589486458171!5m2!1sen!2sza" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+        
+        <!-- Collumn 2 -->
+        <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+          <div class="padding-2x">
+            <div class="line">              
+              <div class="float-left">
+                  <i class="icon-sli-location-pin text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-30">
+                  <h3 class="margin-bottom-0">Company Address</h3>
+                  <p>10 Olifantrivier Street<br>
+                     Vanderbijlpark<br> S.E 4 ,1911
+                  </p>               
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-envelope text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70 margin-bottom-30">
+                  <h3 class="margin-bottom-0">E-mail</h3>
+                  <p><br>
+                     
+                  </p>              
+                </div>
+                <div class="float-left">
+                  <i class="icon-sli-phone text-primary icon3x"></i>
+                </div>
+                <div class="margin-left-70">
+                  <h3 class="margin-bottom-0">Phone Numbers</h3>
+                  <p><br>
+                     <br>
+                     
+                  </p>             
+                </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+      
+      <!-- Bottom Footer -->
+      <section class="padding background-dark full-width">
+        <div class="s-12 l-6">
+          <p class="text-size-12">Copyright 2020, G-Media Entertainment</p>
+          <p class="text-size-12">All images are products of G-Media. Do not use the images in your website.</p>
+        </div>
+        <div class="s-12 l-6">
+          <a class="right text-size-12" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by G-Media</a>
+        </div>
+      </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+      <!-- Contact form JavaScript -->
+      <script src="js/jqBootstrapValidation.js"></script>
+      <script src="js/contact_me.js"></script>
+  
+      <!-- Custom scripts for this template -->
+      <script src="js/agency.min.js"></script>
+  
+  </body>
+</html>
